@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+*{
+    font-family:'Raleway', sans-serif;
+    margin: 0;
+}
+body{
+    background-color: #E8DAB2;
+}
+
+#header {
+    height: 100vh;
+    padding:  24px;
+    position: relative;
+    text-align: bottom;
+}
+
+header p {
+    font-size: 26px;
+    position: absolute;
+    top: 300px;
+    
+    
+}
+header h1{
+    font-size: 52px;
+    position: relative;
+    top: 300px;
+    
+}
+#salsichinha{
+    width: 370px;
+    height: 192px;
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+main{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 34px 24px 10px 24px ;
+    border-radius: 5px;
+    box-shadow: 1px 8px 11px 3px rgba(0, 0, 0, 0.26);
+    margin-bottom: 50px;
+}
+
+main article h2{
+    font-size: 30px;
+}
+main article p{
+    padding: 24px;
+}
+
+#medias {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+iframe{
+    height: 400px;
+}
+
+footer{
+    padding: 16px;
+    height: 30px;
+    background-color: #090909;
+    color: white;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+footer p {
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+}
+
